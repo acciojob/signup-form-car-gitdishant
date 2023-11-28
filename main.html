@@ -7,45 +7,36 @@
 </head>
 
 <body>
-	<form method="post">
-		<label for="neme">Name*</label>
-		<input id="name" type="text" placeholder="Name" required>
-		<br>
-		<label for="email">Email*</label>
-		<input id="email" type="email" placeholder="Email" required>
-		<br>
-		<label for="gender_m, gender_f">Gender*</label>
-		<label for="gender_m">Male</label>
-		<input name="gender" id="gender_m" type="radio" required>
-		<label for="gender_f">Female</label>
-		<input name="gender" id="gender_f" type="radio" required>
-		<br>
-		<label for="cars" >Cars Brands</label>
-		<select name="cars" id="cars" >
-			<option value="bmw" >BMW</option>
-			<option value="byd">BYD</option>
-			<option value="tesla">Tesla</option>
-		</select>
-		<br>
-		<label for="age">Age*</label>
-		<input id="age" type="number" placeholder="age" required>
-		<br>
-		<label for="dob">Date of Birth*</label>
-		<input id="dob" type="date" required>
-		<br>
-		<label for="Phone_Number">Phone Number</label>
-		<input id="tel" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="xxx-xxx-xxxx">
-		<br>
-		<label for="password">Password*</label>
-		<input id="password" type="password" required placeholder="Password">
-		<br>
-		<label for="tos"><input type="checkbox"heckbox" id="tos" name="tos" required>
-    I agree to the TOS</label>
+	<form method= "post">
+		<label for="name">Name</label>
+		<br><input type ="text" id="name" required placeholder="Name"></br>
+		<label for="email">Email</label>
+	<br><input type ="email" id="email"  required placeholder="Email">
+	<label for="gender_m">Male</label>
+<input type="radio" id="gender_m" name="gender" value="Male" required>
+<label for="gender_f">Female</label>
+<input type="radio" id="gender_f" name="gender" value="Female" required>
+		 <label for="cars">Car Brands</label>
+  <br>  <select id="cars" required>
+        <!-- Add your options here -->
+	<option>Mahindra</option>  
+	<option>Mercedes</option>  
+	<option>Tata</option>  
+		 </select>
+	<br>	<label for="age">Age</label>
+		<br><input type ="number" id="age" required placeholder="Age"></br>
+	<label for="dob">DOB</label>
+		<br><input type ="date" id="dob" required ></br>
+		<label for="tel">Phone Number</label>
+		<br><input type ="tel" id="tel" placeholder="xxx-xxx-xxx" ></br>
+	<label for="password"></label>
+		<br><input type ="password" id="password" required placeholder="Password"></br>
+	<label for="tos">I agree to the TOS</label>
+		<br><input type ="checkbox" id="tos" required></br>
+		 <button type="submit">Submit</button>
+</form>
 
-		
-		<button type="submit">Submit</button>
-		
-	</form>
+	
 	
 		
 	<!-- the entire body must be written by student -->
